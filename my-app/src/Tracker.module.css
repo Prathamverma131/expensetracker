@@ -1,0 +1,23 @@
+.container{
+
+    
+
+}
+
+.heading{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.body{
+
+    background: #626262FF;
+    box-shadow:  4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    padding: 3.2rem 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
