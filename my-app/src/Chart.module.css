@@ -5,3 +5,9 @@
     max-height: 15rem;
     
 }
+
+@media screen and (max-width: 450px) {
+    .container{
+      max-height: 30rem;
+    }
+  }

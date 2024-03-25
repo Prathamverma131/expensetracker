@@ -1,0 +1,101 @@
+.modal_wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(189,189,189,0.9);
+
+}
+
+.des_wrapper{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    max-width: 40rem;
+    
+    background: white;
+    transform: translate(-50%,-50%);
+    border-radius: 2.8rem;
+    box-shadow: 5px 5px 10px #888888;
+    padding: 2rem;
+    overflow: auto;
+    color: black;
+}
+
+.heading{
+    color: black;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.expense_container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+   
+}
+
+input[type="text"]{
+    width: 16rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 1px 2px 4px black;
+    padding-left: 1rem;
+    
+
+}
+
+input[type="date"]{
+    width: 16rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 1px 2px 4px black;
+    padding-left: 1rem;
+    color: #BDBDBD;
+    font-size: 1.4rem;
+}
+
+::placeholder {
+    color: #BDBDBD;
+    font-size: 1.4rem;
+  }
+
+select{
+    width: 17rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 1px 2px 4px black;
+    color: #BDBDBD;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+
+}
+
+option{
+    color: #BDBDBD;
+}
+
+
+
+
+.balance_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+

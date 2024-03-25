@@ -5,14 +5,27 @@ import Chart from 'chart.js/auto';
 
 const PieChart = ({ data }) => {
   const chartRef = useRef();
-  data = {
-    "expenses": [
-        {"type": "Food", "count": 100},   
-    {"type": "Entertainment", "count": 100},
-   
-    {"type": "Travel", "count": 100}, 
-    ]
-    }
+  if(!data){
+    
+    data = {
+        "expenses": [
+            {"type": "Food", "count": 100},   
+        {"type": "Entertainment", "count": 100},
+       
+        {"type": "Travel", "count": 100}, 
+        ]
+        }
+  }
+  if(data.expenses[0].count===0&&data.expenses[1].count===0&&data.expenses[2].count===0){
+   data =  {"expenses": [
+      {"type": "Food", "count": 100},   
+  {"type": "Entertainment", "count": 100},
+ 
+  {"type": "Travel", "count": 100}, 
+  ]
+  }
+  }
+  
 
   useEffect(() => {
     // Destroy existing chart before creating a new one

@@ -1,0 +1,75 @@
+.container{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details{
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.title{
+    
+    color: #444444;
+    font-size: medium;
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+}
+
+.date{
+    color: #C3C3C3;
+}
+
+.details img{
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+hr{
+    border: none; /* Remove default border */
+  border-top: 2px solid #D6D6D6; /* Set the color of the top border to red */
+  margin-top: 1rem;
+}
+
+.img_con{
+    
+   
+    border-radius: 50%;
+    background: #D9D9D9;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cost{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #F6CA71;
+}
+
+.edit{
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    align-items: center;
+    
+    
+}
+
+.logo_con {
+    padding-top: 0.5rem ;
+    
+}
+.logo_con :hover{
+    cursor: pointer;
+    transform: scale(1.09);
+}
+

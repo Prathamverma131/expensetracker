@@ -18,3 +18,9 @@ code {
 html{
   font-size: 62.5%;
 }
+
+@media screen and (max-width: 450px) {
+  html{
+    font-size: 30%;
+  }
+}
