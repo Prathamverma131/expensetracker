@@ -1,5 +1,5 @@
 import styles from './Expenses.module.css';
-import Modal from './Modal';
+import Modal from '../Modal/Modal';
 import { useState } from 'react';
 
 

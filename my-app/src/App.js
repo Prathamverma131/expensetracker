@@ -1,13 +1,18 @@
 
 import './App.css';
-import Tracker from './Tracker';
-import Transactions from './Transactions';
+import Tracker from './Tracker/Tracker';
+import Transactions from './Transactions/Transactions';
 import { useState,useEffect } from 'react';
 
 function App() {
   const [transactionList,setTransactionList] = useState([]);
   const [balance,setBalance] = useState(5000);
   const [expense,setExpense] = useState(0);
+
+  
+
+  
+
 
   
 
