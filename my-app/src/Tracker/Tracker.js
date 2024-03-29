@@ -1,6 +1,6 @@
 import styles from './Tracker.module.css';
-import Wallet from '../Wallet/Wallet';
-import Expenses from '../Expenses/Expenses';
+import Wallet from './Wallet/Wallet';
+import Expenses from './Expenses/Expenses';
 import Chart from './Chart/Chart';
 import { useState,useEffect } from 'react';
 

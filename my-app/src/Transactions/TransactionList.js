@@ -10,6 +10,7 @@ function TransactionList({idx,date,category,price,title,removeTransaction,setBal
         setBalance((prev)=>prev+parseInt(price));
         setExpense((prev)=>prev-parseInt(price));
     }
+
     
 
     return <div className={styles.body}> <div className={styles.container}>

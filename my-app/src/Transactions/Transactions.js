@@ -3,7 +3,7 @@ import TransactionList from './TransactionList';
 
 function Transactions({transactionList,setTransactionList,setBalance,setExpense}){
 
-    //var list = [{date: '2024-03-26', category: 'Food', price: '100', title: 'show'},{date: '2024-03-26', category: 'Food', price: '100', title: 'show'}]
+    //dummy data:- var list = [{date: '2024-03-26', category: 'Food', price: '100', title: 'show'},{date: '2024-03-26', category: 'Food', price: '100', title: 'show'}]
     function removeTransaction(idx){
 
         var updatedList = [];

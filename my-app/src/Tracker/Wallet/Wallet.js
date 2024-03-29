@@ -1,5 +1,5 @@
 import styles from './Wallet.module.css';
-import Modal from '../Modal/Modal';
+import Modal from '../../Modal/Modal';
 import { useState } from 'react';
 
 
